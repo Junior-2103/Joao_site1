@@ -2,6 +2,8 @@ import streamlit as st
 
 # streamlit run .\joao\streamlit_joao.py
 
+st.set_page_config(page_title='Um pouco sobre minha rã')
+
 st.title(':green[Site sobre a minha rã touro]')
 
 st.subheader(':blue[a minha rã, é da especie Rã-touro, do nome cientifico (Lithobates castebeianus). Essa especie de rã pode atingir 20 centimetros de comprimento e pesar mais de 2kg, sendo a segunda maior especie de rã do mundo.]','left')
